@@ -1,3 +1,6 @@
+require("bootstrap");
+import '@popperjs/core'
+
 $(document).ready(function() {
   function createEl(htmlString, attrs, ...children) {
     if (typeof htmlString !== "string") {
